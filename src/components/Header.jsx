@@ -26,7 +26,7 @@ const Header = () => {
 
           {/* LOGO */}
           <Link to="/" className="flex items-center">
-            <img src="../public/nilu logo-Photoroom.png" alt="Logo" className="h-18" />
+            <img src="/nilu logo-Photoroom.png" alt="Logo" className="h-18" />
           </Link>
 
           {/* DESKTOP NAV */}

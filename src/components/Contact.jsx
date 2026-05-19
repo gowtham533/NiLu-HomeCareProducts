@@ -51,8 +51,8 @@ const Contact = () => {
 
         {/* HERO */}
         <section className="text-center px-6 pt-20 pb-14">
-            <div className="align-center justify-center flex m-5"><img src="/public/mas group.jpeg" alt="" className="rounded-full border-0 w-40" />
-            <img src="/public/nilu logo.jpeg" alt="" className="rounded-full border-0 w-40 " />
+            <div className="align-center justify-center flex m-5"><img src="/mas group.jpeg" alt="" className="rounded-full border-0 w-40" />
+            <img src="/nilu logo.jpeg" alt="" className="rounded-full border-0 w-40 " />
             </div>
           <InView>
             <span className="px-5 py-2 rounded-full text-xs font-bold bg-gradient-to-r from-violet-600 to-emerald-500 text-white shadow-lg">

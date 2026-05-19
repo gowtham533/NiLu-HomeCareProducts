@@ -7,19 +7,19 @@ import { Link } from "react-router-dom";
 
 /* ─── DATA ─────────────────────────────────────────────── */
 const categories = [
-  { name: "Soaps",       img: "/public/crystalsoap.png",       bg: "from-emerald-100 to-teal-50",   accent: "text-emerald-600",  icon: "🧼" },
-  { name: "Dishwash $ Handwash",       img: "/public/handwash.png",       bg: "from-amber-100 to-yellow-50",   accent: "text-amber-600",    icon: "🍽️ 🧴" },
-  { name: "Fabric Softener",img: "/public/softner.png",      bg: "from-violet-100 to-purple-50",  accent: "text-violet-600",   icon: "👕" },
-  { name: "Vinegar",          img: "/public/vinegar.png",           bg: "from-rose-100 to-pink-50",      accent: "text-rose-600",     icon: "🍶" },
-  { name: "Cleaners",       img: "/public/glass cleaner.png",       bg: "from-sky-100 to-blue-50",       accent: "text-sky-600",      icon: "🧹" },
+  { name: "Soaps",       img: "/crystalsoap.png",       bg: "from-emerald-100 to-teal-50",   accent: "text-emerald-600",  icon: "🧼" },
+  { name: "Dishwash $ Handwash",       img: "/handwash.png",       bg: "from-amber-100 to-yellow-50",   accent: "text-amber-600",    icon: "🍽️ 🧴" },
+  { name: "Fabric Softener",img: "/softner.png",      bg: "from-violet-100 to-purple-50",  accent: "text-violet-600",   icon: "👕" },
+  { name: "Vinegar",          img: "/vinegar.png",           bg: "from-rose-100 to-pink-50",      accent: "text-rose-600",     icon: "🍶" },
+  { name: "Cleaners",       img: "/glass cleaner.png",       bg: "from-sky-100 to-blue-50",       accent: "text-sky-600",      icon: "🧹" },
 ];
 
 const products = [
-  { name: "Handwash",  price: 99,  img: "/public/yellow handwash.jpeg",  tag: "Best Seller" },
-  { name: "Pure Vinegar",   price: 89,  img: "/public/vinegar.png",  tag: "New" },
-  { name: "Rose Handwash",  price: 99,  img: "/public/handwash.png",      tag: "" },
-  { name: "Fabric Softener",price: 149, img: "/public/softner.png", tag: "Popular" },
-  { name: "Natural Soap",   price: 49,  img: "/public/crystalsoap.png",  tag: "Eco" },
+  { name: "Handwash",  price: 99,  img: "/yellow handwash.jpeg",  tag: "Best Seller" },
+  { name: "Pure Vinegar",   price: 89,  img: "/vinegar.png",  tag: "New" },
+  { name: "Rose Handwash",  price: 99,  img: "/handwash.png",      tag: "" },
+  { name: "Fabric Softener",price: 149, img: "/softner.png", tag: "Popular" },
+  { name: "Natural Soap",   price: 49,  img: "/crystalsoap.png",  tag: "Eco" },
 ];
 
 const features = [

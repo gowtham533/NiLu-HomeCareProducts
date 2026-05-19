@@ -51,7 +51,7 @@ const Footer = () => {
 
           <div>
             <h1 className="text-xl font-bold text-purple-600">            
-            <img className=" h-30" src="../public/nilu logo-Photoroom.png" alt="" /></h1>
+            <img className=" h-30" src="/nilu logo-Photoroom.png" alt="" /></h1>
             <p className="text-sm mt-2">
               Premium homecare products.
             </p>

@@ -86,10 +86,10 @@ const milestones = [
 ];
 
 const team = [
-  { name: "Lusha Annie Maneksha", role: "Founder & CEO", img: "/public/lusha.jpeg" },
-  { name: "Reji Mathew", role: "Product Head", img: "/public/reji.jpeg" },
-  { name: "Nisha N U", role: "Marketing", img: "/public/nisha.jpeg" },
-  { name: "", role: "", img: "/public/mas group.jpeg" },
+  { name: "Lusha Annie Maneksha", role: "Founder & CEO", img: "/lusha.jpeg" },
+  { name: "Reji Mathew", role: "Product Head", img: "/reji.jpeg" },
+  { name: "Nisha N U", role: "Marketing", img: "/nisha.jpeg" },
+  { name: "", role: "", img: "/mas group.jpeg" },
 ];
 
 /* ─── PAGE ────────────────────────────────────────────── */
@@ -123,7 +123,7 @@ const About = () => (
       {/* ── IMAGE ───────────────────────────── */}
       <section className="max-w-7xl mx-auto px-6 mb-20">
         <img
-          src="/public/nilu-home.png"
+          src="/nilu-home.png"
           className="w-full h-150 object-cover rounded-3xl shadow-xl"
           alt="Homecare" style={{marginTop:"50px"}}
         />
